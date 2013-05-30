@@ -28,14 +28,10 @@ TARGET_PREBUILT_KERNEL := device/zte/n980/kernel
 
 BOARD_HAS_NO_SELECT_BUTTON := true
 
-#TARGET_SPECIFIC_HEADER_PATH := device/zte/n980/include
 
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/zte/n980/recovery/recovery_keys.c
 BOARD_CUSTOM_GRAPHICS            := ../../../device/zte/n980/recovery/graphics.c
 BOARD_UMS_LUNFILE                := "/sys/devices/platform/msm_hsusb/gadget/lun%d/file"
-#BOARD_UMS_LUNFILE := "/sys/class/android_usb/android0/f_mass_storage/lun%d/file"
-#BOARD_UMS_2ND_LUNFILE := "/sys/class/android_usb/android0/f_mass_storage/lun1/file"
 TARGET_RECOVERY_INITRC		 := device/zte/n980/recovery/init.rc
 #TARGET_RECOVERY_PIXEL_FORMAT	:= "RGBX_8888"
-#BOARD_USE_SCREENCAP := true
 
